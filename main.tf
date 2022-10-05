@@ -16,11 +16,10 @@ terraform {
 
 
     workspaces {
-      name = "demo-github-actions"
+      name = "demo-github-actions1"
     }
   }
 }
-
 
 provider "aws" {
   region = "us-east-1"
